@@ -1,0 +1,11 @@
+spec:
+  containers:
+    - name: snowflake-manager
+      image: /snowflake_manager_db/public/snowflake_manager_repo/snowflake-manager:latest
+      env:
+        SNOWFLAKE_ACCOUNT: PM-PM_AWS_US_WEST_2
+        SNOWFLAKE_WAREHOUSE: HLEVEL1
+  endpoints:
+    - name: snowflake-manager
+      port: 8080
+      public: true

@@ -1,0 +1,4 @@
+{"level":"ERROR","message":"[10:43:04.605 PM]: Error issuing heartbeat call: write EPIPE"}
+{"level":"ERROR","message":"[10:43:04.630 PM]: Error issuing heartbeat call: write EPIPE"}
+{"level":"ERROR","message":"[11:57:28.627 PM]: Error issuing heartbeat call: read ECONNRESET"}
+{"level":"ERROR","message":"[11:57:28.672 PM]: Error issuing heartbeat call: read ECONNRESET"}
