@@ -11,6 +11,7 @@ import {
   SidebarMenuItem,
   SidebarMenuButton,
   SidebarFooter,
+  SidebarTrigger,
 } from "@/components/ui/sidebar";
 import {
   Select,
@@ -79,11 +80,14 @@ export function AppSidebar({
   };
 
   return (
-    <Sidebar>
+    <Sidebar collapsible="icon">
       <SidebarHeader className="p-4">
         <div className="flex items-center gap-2">
-          <Snowflake className="h-6 w-6 text-sidebar-primary" />
-          <span className="text-lg font-semibold">Snowflake Manager</span>
+          <Snowflake className="h-6 w-6 text-sidebar-primary shrink-0" />
+          <span className="text-lg font-semibold truncate group-data-[collapsible=icon]:hidden">
+            Snowflake Workflows
+          </span>
+          <SidebarTrigger className="ml-auto shrink-0 group-data-[collapsible=icon]:hidden" />
         </div>
       </SidebarHeader>
 
@@ -92,7 +96,7 @@ export function AppSidebar({
       <SidebarContent>
         <SidebarGroup>
           <SidebarGroupLabel>Context</SidebarGroupLabel>
-          <div className="px-2 space-y-2">
+          <div className="px-2 space-y-2 group-data-[collapsible=icon]:hidden">
             <div className="flex gap-1.5">
               <Input
                 value={dbInput}
@@ -147,9 +151,12 @@ export function AppSidebar({
       </SidebarContent>
 
       <SidebarFooter className="p-4">
-        <p className="text-xs text-sidebar-foreground/50">
-          Snowflake Object Manager
-        </p>
+        <div className="flex items-center justify-between">
+          <p className="text-xs text-sidebar-foreground/50 group-data-[collapsible=icon]:hidden">
+            Snowflake Workflows
+          </p>
+          <SidebarTrigger className="shrink-0" />
+        </div>
       </SidebarFooter>
     </Sidebar>
   );

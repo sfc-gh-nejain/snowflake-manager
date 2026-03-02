@@ -110,3 +110,11 @@
 {"level":"ERROR","message":"[12:01:42.332 PM]: Error issuing heartbeat call: Unable to perform operation using terminated connection."}
 {"level":"ERROR","message":"[1:01:42.339 PM]: Error issuing heartbeat call: Unable to perform operation using terminated connection."}
 {"level":"ERROR","message":"[1:01:42.344 PM]: Error issuing heartbeat call: Unable to perform operation using terminated connection."}
+{"level":"ERROR","message":"[2:01:42.348 PM]: Error issuing heartbeat call: Unable to perform operation using terminated connection."}
+{"level":"ERROR","message":"[2:01:42.351 PM]: Error issuing heartbeat call: Unable to perform operation using terminated connection."}
+{"level":"ERROR","message":"[3:01:42.355 PM]: Error issuing heartbeat call: Unable to perform operation using terminated connection."}
+{"level":"ERROR","message":"[3:01:42.357 PM]: Error issuing heartbeat call: Unable to perform operation using terminated connection."}
+{"level":"ERROR","message":"[4:01:42.358 PM]: Error issuing heartbeat call: Unable to perform operation using terminated connection."}
+{"level":"ERROR","message":"[4:01:42.362 PM]: Error issuing heartbeat call: Unable to perform operation using terminated connection."}
+{"level":"ERROR","message":"[5:01:42.364 PM]: Error issuing heartbeat call: Unable to perform operation using terminated connection."}
+{"level":"ERROR","message":"[5:01:42.368 PM]: Error issuing heartbeat call: Unable to perform operation using terminated connection."}
