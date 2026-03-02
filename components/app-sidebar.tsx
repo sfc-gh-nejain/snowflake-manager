@@ -41,7 +41,7 @@ const NAV_ITEMS = [
   { key: "tasks", label: "Tasks", icon: Clock },
   { key: "streams", label: "Streams", icon: Activity },
   { key: "procedures", label: "Procedures", icon: Code },
-  { key: "pipeline", label: "Pipeline Builder", icon: Workflow },
+  { key: "pipeline", label: "Workflow Builder", icon: Workflow },
 ];
 
 interface AppSidebarProps {

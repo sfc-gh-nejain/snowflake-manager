@@ -330,7 +330,7 @@ function PipelineCanvasInner({ database, schema }: PipelineCanvasProps) {
         {/* Toolbar */}
         <div className="flex items-center justify-between px-4 py-2 border-b bg-background">
           <div className="flex items-center gap-2">
-            <h2 className="text-sm font-semibold">Pipeline Builder</h2>
+            <h2 className="text-sm font-semibold">Workflow Builder</h2>
             <span className="text-xs text-muted-foreground">
               {database}.{schema}
             </span>
@@ -365,7 +365,7 @@ function PipelineCanvasInner({ database, schema }: PipelineCanvasProps) {
               ) : (
                 <Save className="h-3.5 w-3.5 mr-1.5" />
               )}
-              Deploy Pipeline
+              Deploy Workflow
             </Button>
           </div>
         </div>
